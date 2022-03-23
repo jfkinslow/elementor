@@ -60,6 +60,7 @@ class Manager extends Base_Object {
 		}
 
 		$default_experimental_data = [
+			'title' => '',
 			'description' => '',
 			'release_status' => self::RELEASE_STATUS_ALPHA,
 			'default' => self::STATE_INACTIVE,
